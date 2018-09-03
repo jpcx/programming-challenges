@@ -1,0 +1,5 @@
+# Reddit authentication credentials
+redditAuth.json
+
+# Node.js modules
+node_modules
