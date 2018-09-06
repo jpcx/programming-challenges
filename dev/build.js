@@ -2,6 +2,7 @@
 
 const fs = require('fs')
 const path = require('path')
+const qs = require('querystring')
 const settings = require('./buildConfig.json')
 
 const writeDeep = (absolutePath, data) =>
@@ -81,7 +82,7 @@ const populateReadme = async () => {
       const tags = matches[3] ? matches[3].split(/, /g) : []
       const linkedTitle = `[${matches[4]}](${settings.homepage}/blob/${
         settings.version
-      }/challenges/${origin}/${challenge.replace(/ /g, '%20')})`
+      }/challenges/${qs.escape(origin)}/${qs.escape(challenge)})`
       const solutions = fs
         .readdirSync(path.join(__dirname, '../challenges', origin, challenge))
         .filter(x => !x.match(/^\./m))

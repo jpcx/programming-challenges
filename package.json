@@ -26,6 +26,7 @@
   "homepage": "https://github.com/jpcx/programming-challenges#readme",
   "devDependencies": {
     "leven": "^2.1.0",
+    "querystring": "^0.2.0",
     "snoowrap": "^1.15.2"
   }
 }
