@@ -95,6 +95,8 @@ __Within the [solution directory](#solution-directory):__
   + If necessary, create additional markdown files in a _docs/_ folder.
 + If licensing, please use an MIT-compatible license.
 
+Solutions will be batched in the [newSolutions](https://github.com/jpcx/programming-challenges/tree/newSolutions) branch before being committed to master.
+
 ---
 
 ## Bonus
