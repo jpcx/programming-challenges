@@ -1,6 +1,6 @@
 {
   "name": "programming-challenges",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A collection of programming challenges and solutions! Includes all challenge prompts featured on r/dailyprogrammer.",
   "main": "index.js",
   "scripts": {
