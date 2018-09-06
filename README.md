@@ -10,8 +10,6 @@ To start off, I've completed a meta-challenge to scrape all challenges from [r/d
 
 Feel free to fork this repository if you want to complete your own solutions and/or add challenges :). See the [CONTRIBUTING.md](/CONTRIBUTING.md) file for contribution rules.
 
-Solutions will be batched in the [newSolutions](https://github.com/jpcx/programming-challenges/tree/newSolutions) branch before being committed to master.
-
 ## Challenges _(Sorted by Number of Solutions, Difficulty, and Date)_
 
 | Date | Origin | Title | Difficulty | Solutions | Tags |

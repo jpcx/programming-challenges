@@ -59,6 +59,8 @@ __Citation:__
   
 + If the challenge is licensed, please include a copy of the license as _/challenges/[`{ORIGIN_TAG}`](#origin-tag)/[`{CHALLENGE_ID}`](#challenge-id)/LICENSE_.
 
+Challenges will be batched in a feature branch [_`feature-nextChallengeBatch`_](https://github.com/jpcx/programming-challenges/tree/feature-nextChallengeBatch) before being staged for release.
+
 ---
 
 ## Challenge Solutions
@@ -86,7 +88,7 @@ __Solutions must be located within the following directory:__
       + _Note: Cannot contain forward slashes. Substitute with a fractional slash character padded by narrow non-breaking spaces (' ⁄ ') if necessary._
         + `U+202F` + `U+2044` + `U+202F`
         + _javascript: `\u202F\u2044\u202F`_
-  + This should not change with future revisions.
+  + The CHALLENGE_ID should not change with future revisions to the solution (to prevent breaking links).
   + _e.g. `2018-09-03 <jpcx> [javascript]: One-liner with Array.reduce.`_
 
 __Within the [solution directory](#solution-directory):__
@@ -95,7 +97,7 @@ __Within the [solution directory](#solution-directory):__
   + If necessary, create additional markdown files in a _docs/_ folder.
 + If licensing, please use an MIT-compatible license.
 
-Solutions will be batched in the [newSolutions](https://github.com/jpcx/programming-challenges/tree/newSolutions) branch before being committed to master.
+Solutions will be batched in a feature branch [_`feature-nextSolutionBatch`_](https://github.com/jpcx/programming-challenges/tree/feature-nextSolutionBatch) before being staged for release.
 
 ---
 
