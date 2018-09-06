@@ -2,7 +2,7 @@
 
 <a name="0.1.0"></a>
 
-## [0.1.0](https://github.com/jpcx/programming-challenges/tree/0.1.0) (2018-09-05)
+## [0.1.0](https://github.com/jpcx/programming-challenges/tree/0.1.0) (2018-09-06)
 
 | [Release Notes](https://github.com/jpcx/programming-challenges/releases/tag/0.1.0) | [README](https://github.com/jpcx/programming-challenges/blob/0.1.0/README.md) |
 | --- | --- |
