@@ -1,7 +1,7 @@
 {
   "name": "programming-challenges",
   "version": "0.1.0",
-  "description": "A collection of programming challenges (including all challenges from r/programmingchallenges) and my solutions to some of them.",
+  "description": "A collection of programming challenges (including all challenges from r/dailyprogrammer) and my solutions to some of them.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
