@@ -85,10 +85,10 @@ module.exports = settings => {
           if (ch.number) {
             challengeID += `: Challenge #${ch.number}: ${ch.title.replace(
               /\//g,
-              '\u2044'
+              '\u202F\u2044\u202F'
             )}`
           } else {
-            challengeID += `: ${ch.title.replace(/\//g, '\u2044')}`
+            challengeID += `: ${ch.title.replace(/\//g, '\u202F\u2044\u202F')}`
           }
         } else {
           if (ch.number) {

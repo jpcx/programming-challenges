@@ -16,7 +16,9 @@ __Prompts must be stored as GitHub-compliant markdown in the following location:
     + _e.g.: `github:jpcx:programming-challenges`_
   + If self-submitted, please use your GitHub username.
     + _e.g.: `jpcx`_
-  + _Note: Cannot contain forward slashes. Substitute with a `U+2044` character if necessary._
+  + _Note: Cannot contain forward slashes. Substitute with a fractional slash character padded by narrow non-breaking spaces (' ⁄ ') if necessary._
+    + `U+202F` + `U+2044` + `U+202F`
+    + _javascript: `\u202F\u2044\u202F`_
 + <a name=challenge-id></a>__CHALLENGE_ID:__ An identifier that stores information about the challenge.
   + [`{CREATION_DATE}`](#creation-date) [[`{DIFFICULTY}`](#difficulty)]: [`{CHALLENGE_TITLE}`](#challenge-title)
     + <a name=creation-date></a>__CREATION_DATE:__ The date the challenge was created.
@@ -35,7 +37,9 @@ __Prompts must be stored as GitHub-compliant markdown in the following location:
       + `unspecified`
         + _Note: Only use if scraping from an external source and a difficulty cannot be determined._
     + <a name=challenge-title></a>__CHALLENGE_TITLE:__ A short description of the challenge.
-      + _Note: Cannot contain forward slashes. Substitute with a `U+2044` character if necessary._
+      + _Note: Cannot contain forward slashes. Substitute with a fractional slash character padded by narrow non-breaking spaces (' ⁄ ') if necessary._
+        + `U+202F` + `U+2044` + `U+202F`
+        + _javascript: `\u202F\u2044\u202F`_
       + Use square brackets [] for any additional tags you would like to add.
         + Tags should be space-less and in lower case.
         + Multiple tags should be separated with a comma and a space ', '.
@@ -79,7 +83,9 @@ __Solutions must be located within the following directory:__
       + _e.g.: `Purely functional`_
       + _e.g.: `One-liner`_
       + _e.g.: `Solution #1`_
-      + _Note: Cannot contain forward slashes. Substitute with a `U+2044` character if necessary._
+      + _Note: Cannot contain forward slashes. Substitute with a fractional slash character padded by narrow non-breaking spaces (' ⁄ ') if necessary._
+        + `U+202F` + `U+2044` + `U+202F`
+        + _javascript: `\u202F\u2044\u202F`_
   + This should not change with future revisions.
   + _e.g. `2018-09-03 <jpcx> [javascript]: One-liner with Array.reduce.`_
 
