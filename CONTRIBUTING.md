@@ -59,7 +59,7 @@ __Citation:__
   
 + If the challenge is licensed, please include a copy of the license as _/challenges/[`{ORIGIN_TAG}`](#origin-tag)/[`{CHALLENGE_ID}`](#challenge-id)/LICENSE_.
 
-Challenges will be batched in a feature branch [_`feature-nextChallengeBatch`_](https://github.com/jpcx/programming-challenges/tree/feature-nextChallengeBatch) before being staged for release.
+Challenges will be batched in the develop branch [_`develop`_](https://github.com/jpcx/programming-challenges/tree/develop) before being staged for release.
 
 ---
 
@@ -97,7 +97,7 @@ __Within the [solution directory](#solution-directory):__
   + If necessary, create additional markdown files in a _docs/_ folder.
 + If licensing, please use an MIT-compatible license.
 
-Solutions will be batched in a feature branch [_`feature-nextSolutionBatch`_](https://github.com/jpcx/programming-challenges/tree/feature-nextSolutionBatch) before being staged for release.
+Solutions will be batched in the develop branch [_`develop`_](https://github.com/jpcx/programming-challenges/tree/develop) before being staged for release.
 
 ---
 
