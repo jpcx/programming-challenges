@@ -80,9 +80,7 @@ const populateReadme = async () => {
       const date = matches[1]
       const difficulty = matches[2]
       const tags = matches[3] ? matches[3].split(/, /g) : []
-      const linkedTitle = `[${matches[4]}](${settings.homepage}/blob/${
-        settings.version
-      }/challenges/${qs.escape(origin)}/${qs.escape(challenge)})`
+      const linkedTitle = `/challenges/${qs.escape(origin)}/${qs.escape(challenge)})`
       const solutions = fs
         .readdirSync(path.join(__dirname, '../challenges', origin, challenge))
         .filter(x => !x.match(/^\./m))
