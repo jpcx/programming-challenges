@@ -80,7 +80,7 @@ const populateReadme = async () => {
       const date = matches[1]
       const difficulty = matches[2]
       const tags = matches[3] ? matches[3].split(/, /g) : []
-      const linkedTitle = `/challenges/${qs.escape(origin)}/${qs.escape(challenge)})`
+      const linkedTitle = `[${matches[4]}](/challenges/${qs.escape(origin)}/${qs.escape(challenge)})`
       const solutions = fs
         .readdirSync(path.join(__dirname, '../challenges', origin, challenge))
         .filter(x => !x.match(/^\./m))
